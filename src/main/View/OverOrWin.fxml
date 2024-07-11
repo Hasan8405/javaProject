@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="citywars.finalproject.Controller.WinOver">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../images/login.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="338.0" layoutX="231.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="playGameOver" fitHeight="341.0" fitWidth="394.0" layoutX="14.0" layoutY="134.0" pickOnBounds="true" />
+      <Label layoutX="479.0" layoutY="214.0" prefHeight="46.0" prefWidth="140.0" text="Level player 1 :" textFill="#0fe741">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="271.0" prefHeight="46.0" prefWidth="140.0" text="Level player 2 :" textFill="#0fe741">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="coinimage" fitHeight="57.0" fitWidth="45.0" layoutX="425.0" layoutY="322.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/coin.png" />
+         </image></ImageView>
+      <Label layoutX="469.0" layoutY="328.0" prefHeight="46.0" prefWidth="159.0" text=" Coin player 1 :" textFill="#f2ee0d">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="levelp1" layoutX="647.0" layoutY="204.0" prefHeight="30.0" prefWidth="56.0" textFill="#ec0dec">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label fx:id="levelp2" layoutX="647.0" layoutY="261.0" prefHeight="30.0" prefWidth="56.0" textFill="#ec0dec">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label fx:id="coinp1" layoutX="647.0" layoutY="318.0" prefHeight="30.0" prefWidth="56.0" textFill="#eb0e14">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="393.0" prefHeight="46.0" prefWidth="159.0" text=" Coin player 2 :" textFill="#f2ee0d">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="back" layoutX="647.0" layoutY="384.0" onMouseClicked="#back" prefHeight="30.0" prefWidth="56.0" textFill="#eb0e14">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="coinimage1" fitHeight="57.0" fitWidth="45.0" layoutX="425.0" layoutY="388.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/coin.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="28.0" layoutY="529.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="114.0" style="-fx-background-radius: 15; -fx-background-color: #ec0dec;" text="back" textFill="#2b282b" textOverrun="CLIP">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

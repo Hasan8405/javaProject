@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1294.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="citywars.finalproject.Controller.TwoPlayerGame">
+    <children>
+      <ImageView fx:id="background" fitHeight="662.0" fitWidth="1294.0" onMouseClicked="#back" pickOnBounds="true">
+         <image>
+            <Image url="@../images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="zamin" fitHeight="340.0" fitWidth="976.0" layoutX="87.0" layoutY="161.0" onMouseClicked="#zamin" pickOnBounds="true">
+         <image>
+            <Image url="@../images/zamin.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="p21" arcHeight="5.0" arcWidth="5.0" fill="#eb1cfa" height="155.0" layoutX="154.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p22" arcHeight="5.0" arcWidth="5.0" fill="#bc08ea" height="155.0" layoutX="197.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p23" arcHeight="5.0" arcWidth="5.0" fill="#ef11e4" height="155.0" layoutX="247.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p24" arcHeight="5.0" arcWidth="5.0" fill="#c40aea" height="155.0" layoutX="296.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p25" arcHeight="5.0" arcWidth="5.0" fill="#da0dfa" height="155.0" layoutX="345.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p26" arcHeight="5.0" arcWidth="5.0" fill="#ec0ad9" height="155.0" layoutX="396.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p27" arcHeight="5.0" arcWidth="5.0" fill="#e10ef4" height="155.0" layoutX="445.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p28" arcHeight="5.0" arcWidth="5.0" fill="#df09db" height="155.0" layoutX="494.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p29" arcHeight="5.0" arcWidth="5.0" fill="#bd0de4" height="155.0" layoutX="543.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p210" arcHeight="5.0" arcWidth="5.0" fill="#cc05f4" height="155.0" layoutX="598.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p211" arcHeight="5.0" arcWidth="5.0" fill="#c509e7" height="155.0" layoutX="647.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p212" arcHeight="5.0" arcWidth="5.0" fill="#c50bd6" height="155.0" layoutX="693.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p213" arcHeight="5.0" arcWidth="5.0" fill="#d109df" height="155.0" layoutX="742.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p214" arcHeight="5.0" arcWidth="5.0" fill="#cd0de0" height="155.0" layoutX="791.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p215" arcHeight="5.0" arcWidth="5.0" fill="#de10d5" height="155.0" layoutX="840.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p216" arcHeight="5.0" arcWidth="5.0" fill="#d407f5" height="155.0" layoutX="889.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p217" arcHeight="5.0" arcWidth="5.0" fill="#f20af2" height="155.0" layoutX="938.0" layoutY="169.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p11" arcHeight="5.0" arcWidth="5.0" fill="#17ea3e" height="149.0" layoutX="154.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="p12" arcHeight="5.0" arcWidth="5.0" fill="#0def3e" height="149.0" layoutX="198.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p13" arcHeight="5.0" arcWidth="5.0" fill="#07ea30" height="149.0" layoutX="247.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p14" arcHeight="5.0" arcWidth="5.0" fill="#0cfa20" height="149.0" layoutX="296.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p15" arcHeight="5.0" arcWidth="5.0" fill="#07ef22" height="149.0" layoutX="345.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p16" arcHeight="5.0" arcWidth="5.0" fill="#08f75c" height="149.0" layoutX="396.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p17" arcHeight="5.0" arcWidth="5.0" fill="#12ec0a" height="149.0" layoutX="445.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p18" arcHeight="5.0" arcWidth="5.0" fill="#0bec26" height="149.0" layoutX="494.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p19" arcHeight="5.0" arcWidth="5.0" fill="#0af735" height="149.0" layoutX="543.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p110" arcHeight="5.0" arcWidth="5.0" fill="#0bf73a" height="149.0" layoutX="598.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p111" arcHeight="5.0" arcWidth="5.0" fill="#0df730" height="149.0" layoutX="644.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p112" arcHeight="5.0" arcWidth="5.0" fill="#09f731" height="149.0" layoutX="693.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p113" arcHeight="5.0" arcWidth="5.0" fill="#09f440" height="149.0" layoutX="742.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p114" arcHeight="5.0" arcWidth="5.0" fill="#09f421" height="149.0" layoutX="791.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p115" arcHeight="5.0" arcWidth="5.0" fill="#06fa3f" height="149.0" layoutX="840.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p116" arcHeight="5.0" arcWidth="5.0" fill="#0aea33" height="149.0" layoutX="889.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Rectangle fx:id="p117" arcHeight="5.0" arcWidth="5.0" fill="#04ef1b" height="149.0" layoutX="938.0" layoutY="330.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0" />
+      <Label fx:id="runplay2" alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="207.0" prefHeight="30.0" prefWidth="43.0" textFill="#201919">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="runplay1" alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="392.0" prefHeight="30.0" prefWidth="43.0" textFill="#201919">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="damage2" alignment="CENTER" contentDisplay="CENTER" layoutX="1000.0" layoutY="206.0" prefHeight="80.0" prefWidth="49.0" text="0" textFill="#3165d7">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="damage1" alignment="CENTER" contentDisplay="CENTER" layoutX="1000.0" layoutY="365.0" prefHeight="80.0" prefWidth="49.0" text="0" textFill="#3165d7">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="characterplayer1" fitHeight="171.0" fitWidth="252.0" layoutX="1.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HPplayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="628.0" prefHeight="26.0" prefWidth="43.0" textFill="#31d766">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="characterplayer2" fitHeight="162.0" fitWidth="255.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HPplayer2" layoutX="28.0" layoutY="129.0" prefHeight="31.0" prefWidth="43.0" textFill="#2ccf75">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="player21" arcHeight="5.0" arcWidth="5.0" fill="#ecf0f4" height="162.0" layoutX="264.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player22" arcHeight="5.0" arcWidth="5.0" fill="#ecf0f4" height="162.0" layoutX="417.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player23" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="568.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player24" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="718.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player25" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="865.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player11" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="264.0" layoutY="497.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <Rectangle fx:id="player12" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="417.0" layoutY="497.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player13" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="568.0" layoutY="497.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player14" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="714.0" layoutY="497.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle fx:id="player15" arcHeight="5.0" arcWidth="5.0" fill="#f1f4f7" height="162.0" layoutX="861.0" layoutY="497.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <ImageView fx:id="p2card1" fitHeight="162.0" fitWidth="119.0" layoutX="262.0" layoutY="2.0" onMouseClicked="#card1p2" onMouseDragged="#p2card1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p2card2" fitHeight="162.0" fitWidth="113.0" layoutX="414.0" layoutY="2.0" onMouseClicked="#card2p2" onMouseDragged="#p2card2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p2card3" fitHeight="162.0" fitWidth="113.0" layoutX="565.0" layoutY="2.0" onMouseClicked="#card3p2" onMouseDragged="#p2card3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p2card4" fitHeight="162.0" fitWidth="113.0" layoutX="715.0" layoutY="2.0" onMouseClicked="#card4p2" onMouseDragged="#p2card4" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p2card5" fitHeight="162.0" fitWidth="113.0" layoutX="862.0" layoutY="2.0" onMouseClicked="#card5p2" onMouseDragged="#p2card5" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p1card1" fitHeight="162.0" fitWidth="125.0" layoutX="259.0" layoutY="497.0" onMouseClicked="#card1p1" onMouseDragged="#p1card1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p1card2" fitHeight="162.0" fitWidth="113.0" layoutX="413.0" layoutY="496.0" onMouseClicked="#card2p1" onMouseDragged="#p1card2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p1card3" fitHeight="162.0" fitWidth="113.0" layoutX="565.0" layoutY="496.0" onMouseClicked="#card3p1" onMouseDragged="#p1card3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p1card4" fitHeight="162.0" fitWidth="113.0" layoutX="710.0" layoutY="496.0" onMouseClicked="#card4p1" onMouseDragged="#p1card4" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p1card5" fitHeight="162.0" fitWidth="113.0" layoutX="862.0" layoutY="496.0" onMouseClicked="#card5p1" onMouseDragged="#p1card5" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="14.0" layoutY="268.0" prefHeight="31.0" prefWidth="66.0" text="Rund : ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="315.0" prefHeight="31.0" prefWidth="106.0" text="Turn : Player">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="rund" alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="268.0" prefHeight="31.0" prefWidth="43.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="turn" alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" layoutY="315.0" prefHeight="31.0" prefWidth="43.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="viewCard" fitHeight="235.0" fitWidth="182.0" layoutX="1083.0" layoutY="198.0" onMouseClicked="#viewCard" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="p11attack" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p11damage" alignment="CENTER" contentDisplay="CENTER" layoutX="161.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p12attack" alignment="CENTER" contentDisplay="CENTER" layoutX="209.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p12damage" alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p13attack" alignment="CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p13damage" alignment="CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p14attack" alignment="CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p14damage" alignment="CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p15attack" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p15damage" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p16attack" alignment="CENTER" contentDisplay="CENTER" layoutX="407.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p17attack" alignment="CENTER" contentDisplay="CENTER" layoutX="457.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p18attack" alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p19attack" alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p110attack" alignment="CENTER" contentDisplay="CENTER" layoutX="607.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p111attack" alignment="CENTER" contentDisplay="CENTER" layoutX="655.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p112attack" alignment="CENTER" contentDisplay="CENTER" layoutX="704.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p113attack" alignment="CENTER" contentDisplay="CENTER" layoutX="753.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p114attack" alignment="CENTER" contentDisplay="CENTER" layoutX="806.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p115attack" alignment="CENTER" contentDisplay="CENTER" layoutX="851.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p116attack" alignment="CENTER" contentDisplay="CENTER" layoutX="904.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p117attack" alignment="CENTER" contentDisplay="CENTER" layoutX="953.0" layoutY="346.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p16damage" alignment="CENTER" contentDisplay="CENTER" layoutX="407.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p17damage" alignment="CENTER" contentDisplay="CENTER" layoutX="457.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p18damage" alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p19damage" alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p110damage" alignment="CENTER" contentDisplay="CENTER" layoutX="608.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p111damage" alignment="CENTER" contentDisplay="CENTER" layoutX="655.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p112damage" alignment="CENTER" contentDisplay="CENTER" layoutX="704.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p113damage" alignment="CENTER" contentDisplay="CENTER" layoutX="753.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p114damage" alignment="CENTER" contentDisplay="CENTER" layoutX="806.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p115damage" alignment="CENTER" contentDisplay="CENTER" layoutX="851.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p116damage" alignment="CENTER" contentDisplay="CENTER" layoutX="904.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p117damage" alignment="CENTER" contentDisplay="CENTER" layoutX="953.0" layoutY="412.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p217attack" alignment="CENTER" contentDisplay="CENTER" layoutX="953.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p216attack" alignment="CENTER" contentDisplay="CENTER" layoutX="904.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p215attack" alignment="CENTER" contentDisplay="CENTER" layoutX="851.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p214attack" alignment="CENTER" contentDisplay="CENTER" layoutX="806.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p213attack" alignment="CENTER" contentDisplay="CENTER" layoutX="753.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p212attack" alignment="CENTER" contentDisplay="CENTER" layoutX="701.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p211attack" alignment="CENTER" contentDisplay="CENTER" layoutX="655.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p210attack" alignment="CENTER" contentDisplay="CENTER" layoutX="607.0" layoutY="187.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p29attack" alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p28attack" alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p27attack" alignment="CENTER" contentDisplay="CENTER" layoutX="456.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p26attack" alignment="CENTER" contentDisplay="CENTER" layoutX="407.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p25attack" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p24attack" alignment="CENTER" contentDisplay="CENTER" layoutX="307.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p23attack" alignment="CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p22attack" alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p21attack" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="186.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="p217damage" alignment="CENTER" contentDisplay="CENTER" layoutX="953.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p216damage" alignment="CENTER" contentDisplay="CENTER" layoutX="904.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p215damage" alignment="CENTER" contentDisplay="CENTER" layoutX="851.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p214damage" alignment="CENTER" contentDisplay="CENTER" layoutX="809.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p213damage" alignment="CENTER" contentDisplay="CENTER" layoutX="753.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p212damage" alignment="CENTER" contentDisplay="CENTER" layoutX="701.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p211damage" alignment="CENTER" contentDisplay="CENTER" layoutX="655.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p210damage" alignment="CENTER" contentDisplay="CENTER" layoutX="607.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p29damage" alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p28damage" alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p27damage" alignment="CENTER" contentDisplay="CENTER" layoutX="457.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p26damage" alignment="CENTER" contentDisplay="CENTER" layoutX="407.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p25damage" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p24damage" alignment="CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p23damage" alignment="CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p22damage" alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p21damage" alignment="CENTER" contentDisplay="CENTER" layoutX="161.0" layoutY="248.0" prefHeight="39.0" prefWidth="28.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="timelin" arcHeight="5.0" arcWidth="5.0" fill="#e4c21a" height="351.0" layoutX="124.0" layoutY="152.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+      <ProgressBar fx:id="progress" layoutX="94.0" layoutY="135.0" opacity="0.0" prefHeight="18.0" prefWidth="134.0" progress="0.0" />
+    </children>
+</AnchorPane>
